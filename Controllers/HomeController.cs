@@ -30,4 +30,4 @@ public class HomeController : Controller
     }
 }
 
-//dotnet aspnet-codegenerator controller -name MemberUnitController -m MemberUnit -dc MvcMovie.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlserver
+//dotnet aspnet-codegenerator controller -name NguyenQuocAnhController -m NguyenQuocAnh -dc MvcTest.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlserver
