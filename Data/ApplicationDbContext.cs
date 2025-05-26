@@ -9,11 +9,12 @@ namespace MvcTest.Data
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
         }
 
         public DbSet<MvcTest.Models.NguyenQuocAnh> NguyenQuocAnh { get; set; } = default!;
+        public DbSet<MvcTest.Models.TinhDiem> TinhDiem { get; set; } = default!;
     }
 }

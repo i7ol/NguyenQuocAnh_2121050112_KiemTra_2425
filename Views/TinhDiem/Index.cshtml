@@ -1,0 +1,21 @@
+@model IEnumerable<MvcTest.Models.TinhDiem>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+
+    </thead>
+    <tbody>
+        <form asp-action="Index" method="post">
+            <input type="text" value="a">
+            <input type="text" value="b">
+            <input type="submit" value="Index">
+        </form>
+        @ViewBag.Message
+    </tbody>
+</table>
